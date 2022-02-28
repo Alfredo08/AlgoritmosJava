@@ -1,5 +1,21 @@
 public class Permutaciones {
 
+    public static void permutacion( String palabra, String acumulado ){
+        if( palabra.length() == 0 ){
+            System.out.println( acumulado );
+        }
+        else{
+            for( int i = 0; i < palabra.length(); i ++ ){
+                char ch = palabra.charAt( i );
+                String restoLetras = palabra.substring( 0, i ) + palabra.substring( i + 1 ); 
+                permutacion( restoLetras, acumulado + ch ); 
+            }
+        }
+    }
+    public static void main( String args [] ){
+        String palabra = "abcde";
+        permutacion( palabra, "" );
+    }
 }
 /*
 
