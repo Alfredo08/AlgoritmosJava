@@ -8,5 +8,6 @@ public class ArregloArbolBinario {
 // generar un arbol binario balanceado.
 
 // Algoritmos pendientes por resolver
-// removerNodoArbol, removerDuplicadosArbol
-// laberinto, busquedaBinaria, quickSort, mergeSort
+//  busquedaBinaria, quickSort, mergeSort
+//  removerDuplicadosArbol
+//  laberinto, 
